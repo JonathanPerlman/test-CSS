@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #2e8b57;
+    padding: 10px 0;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    margin-bottom: 10px; 
+}
+
+.paragraph a {
+    color: white;
+    text-decoration: none;
+    margin: 0; 
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.trainingdetails {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.trainingdetails h2 {
+    color: #004400;
+}
+
+.trainingdetails p {
+    margin: 5px 0;
+}
+
+
+.signup-form {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.signup-form h2 {
+    color: #004400;
+    margin-bottom: 15px;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    margin: 10px 0 5px;
+}
+
+.signup-form input,
+.signup-form select {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.signup-form fieldset {
+    margin-bottom: 15px;
+}
+
+.signup-form button {
+    background-color: #004400;
+    color: white;
+    padding: 10px 15px;
+}
+
+
+
+

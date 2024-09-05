@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signUp.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="paragraph">
+            <a href="">Home</a>
+            <a href="index.html">Bacck to Schedule</a>
+        </div>
+        <h1>Morning Run - 5km</h1>
+    </div>
+    <main>
+        <section class="trainingdetails">
+            <h2>Training Details</h2>
+            <p><strong>Date:</strong> 2024-07-13</p>
+            <p><strong>Instructor:</strong> Captain Ruby</p>
+            <p><strong>Description:</strong>Learn essential survival skills for the job</p>
+            <p><strong>Duration:</strong> 5 hours</p>
+            <p><strong>Equipment:</strong> Survival kit</p>
+        </section>
+
+        <div class="signup-form">
+            <h2>Sign Up for Morning Run</h2>
+            <form method="post">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="id-number">ID Number:</label>
+                <input type="text" id="id-number" name="id-number" required>
+
+                <label for="rank">Rank:</label>
+                <select id="rank" name="rank">
+                    <option value="private">Private</option>
+                    <option value="corporal">Corporal</option>
+                    <option value="sergeant">Sergeant</option>
+                    <option value="lieutenant">Lieutenant</option>
+                    <option value="captain">Captain</option>
+                </select>
+
+                <fieldset>
+                    <p>Gender:</p>
+                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                    <label><input type="radio" name="gender" value="female" required> Female</label>
+                </fieldset>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
+       
